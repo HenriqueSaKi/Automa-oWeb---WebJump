@@ -26,8 +26,10 @@ class ClickButtons ():
         botaoFour.click()
 
     def Verifica (self):
-        pass 
+        pass
 
+    def run (self):
+        self.ClicaBotao()  
 
 class LastScene ():
     def __init__(self):
@@ -63,29 +65,33 @@ class LastScene ():
         self.SelectFromList()
         self.VisibilityOfSeleniumImg()  
 
-#class ClickIFrameButtons ():
-#    def __init__(self):
-#        pass
+class ClickIFrameButtons ():
+    def __init__(self):
+        pass
 
-#    def ClicaBotao (self):
-#        botaoOneiframe = driver.find_element_by_xpath("//div[@class='col-sm-12']/p[contains(text(),'One')]")
-#        driver.switch_to_frame(botaoOneiframe)
-#        botaoOneiframe.click()
-#        driver.switch_to_default_content()
-#        botaoTwoiframe = driver.find_element_by_xpath("//div[@class='col-sm-12']/p[contains(text(),'Two')")
-#        driver.switch_to_frame(botaoTwoiframe)
-#        botaoTwoiframe.click()
-#        driver.switch_to_default_content()
-#        botaoFouriframe = driver.find_element_by_xpath("//div[@class='col-sm-12']/p[contains(text(),'Four')")
-#        driver.switch_to_frame(botaoFouriframe)
-#        botaoFouriframe.click()
-#        driver.switch_to_default_content()
+    def iFrameAccess (self):
+        iframe = driver.find_element_by_xpath("//iframe[@src='buttons.html']")
+        driver.switch_to_frame(iframe)
 
-#    def Verifica (self):
-#        pass    
+    def ClicaBotao (self):
+        botaoOneiframe = driver.find_element_by_xpath("//div[@class='col-sm-12']//button[contains(text(),'One')]")
+        botaoOneiframe.click()
+        botaoTwoiframe = driver.find_element_by_xpath("//div[@class='col-sm-12']//button[contains(text(),'Two')]")
+        botaoTwoiframe.click()
+        botaoFouriframe = driver.find_element_by_xpath("//div[@class='col-sm-12']//button[contains(text(),'Four')]")
+        botaoFouriframe.click()
+        driver.switch_to_default_content()
 
-#CB = ClickButtons()
-LS = LastScene()
-#CB.ClicaBotao()
-LS.run()
-time.sleep(5)
+    def Verifica (self):
+        pass    
+
+    def run (self):
+        self.iFrameAccess()
+        self.ClicaBotao()
+
+#CB = ClickButtons() #CLASSE DO CENÁRIO 1 
+#CIF = ClickIFrameButtons() #CLASSE DO CENÁRIO 2
+LS = LastScene() #CLASSE DO CENÁRIO 3
+#CB.run() #EXERCUTA CENÁRIO 1
+#CIF.run() #EXECUTA CENÁRIO 2
+LS.run() #EXECUTA CENÁRIO 3
