@@ -49,7 +49,8 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
 5. Para realizar o download correto, acesse o link, clicando [aqui](https://sites.google.com/a/chromium.org/chromedriver/downloads).
 6. Escolha a versão do seu Chrome e clique na opção;
 7. Automaticamente o seu download irá começar.
-       ##### Obs: Não esqueça de colocar o chromedriver dentro da pasta onde estão os demais arquivos do programa.
+       
+##### Obs: Não esqueça de colocar o chromedriver dentro da pasta onde estão os demais arquivos do programa.
 
 ### Executando os Testes :arrow_forward:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para executar os testes é muito simples, primeiro de tudo, baixe todos os arquivos e armazene-os na mesma pasta. Feito isso, siga os passos a seguir:
@@ -101,7 +102,7 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
 
 
 5. Após determinar qual teste será realizado, salve o arquivo "QA-WebJump.py", utilizando o comando `'ctrl'`+`'s'`;
-6. Abra-o com o Python e veja o funcionamento do programa com o teste escolhido! 
+6. Abra-o com o Python e veja o funcionamento do programa com o cenário escolhido! 
 
    <div align='center'>
     <img src='Etapa6.jpg' width=75% height= 75%>
