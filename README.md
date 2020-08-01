@@ -30,8 +30,7 @@
 
 ### Instalação do Selenium WebDriver :computer:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na programação, foi utilizada a biblioteca Selenium WebDriver, pois com ela é possível identificar e manipular os elementos dentro da página. Segue abaixo informações referente à instalação do framework e sua documentação:
-- [Selenium WebDriver](https://selenium-python.readthedocs.io/)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizado nesse caso foi seguindo os passos abaixo:
+- [Selenium WebDriver](https://selenium-python.readthedocs.io/)</br>O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizado nesse caso foi seguindo os passos abaixo:
 1. Acesse o prompt de comando `'win'` + `'r'`
 3. Digite "cmd" e depois pressione `'enter'`
 2. Digite o seguinte comando: `py -m pip install selenium`
