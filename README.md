@@ -8,7 +8,7 @@
 </div>
 </br>
 
-### Índice
+### Índice :scroll: 
 - Ferramentas
 - Instalação do Selenium WebDriver
 - Download e Armazenamento ChromeDriver
@@ -37,6 +37,20 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
 
 ##### Obs: Para esse comando funcionar, é necessário que o usuário já tenha instalado em sua máquina o Python 3.8.3
 
+### Download e Armazenamento ChromeDriver :file_folder:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para a instalação do ChromeDriver, é necessário saber qual é a versão do seu navegador. Para desconbrir essas informações, siga os passos a seguir:
+1. No Google Chrome, vá em 'Configurações', no canto superior direito;
+2. Clicando nele, é possível verificar à esquerda, uma lista de configurações;
+3. Clique em 'Sobre o Google Chrome';
+4. Serão carregados as seguintes informações:
+   <div align='center'>
+    <img src='AboutChrome.JPG' width=75% height= 75%>
+   <div>
+5. Para realizar o download correto, acesse o link, clicando [aqui](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+6. Escolha a versão do seu Chrome e clique na opção;
+7. Automaticamente o seu download irá começar.
+       ##### Obs: Não esqueça de colocar o chromedriver dentro da pasta onde estão os demais arquivos do programa.
+
 ### Executando os Testes :arrow_forward:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para executar os testes é muito simples, primeiro de tudo, baixe todos os arquivos e armazene-os na mesma pasta. Feito isso, siga os passos a seguir:
 
@@ -53,7 +67,7 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
     <img src='Etapa3.jpg' width=75% height= 75%>
    <div>
 4. Vá até as últimas linhas do código e realize as tarefas conforme comentado.
-   ###### Para a realização dos testes, deve-se descomentar a classe e seu respectivo "executa cenário"
+   ###### Obs: Para a realização dos testes, deve-se descomentar a classe e seu respectivo "executa cenário"
 
     4.1. Para executar o teste 1: 
     ```(Python)
