@@ -8,14 +8,14 @@
 </div>
 </br>
 
-###Índice
+### Índice
 - Ferramentas
 - Instalação do Selenium WebDriver
 - Download e Armazenamento ChromeDriver
 - Executando os Testes
 - Links
 
-###Ferramentas :wrench:
+### Ferramentas :wrench:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para o desenvolvimento desse software, foram utilizadas as ferramentas listadas a seguir:
 
@@ -26,7 +26,7 @@
 - [ChromeDriver 84.0.4147.30](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 - [Selenium WebDriver](https://selenium-python.readthedocs.io/installation.html#)
 
-#####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Obs: Clicando sob cada item que contém hiperlink, você será redirecionado para a página de download.
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Obs: Clicando sob cada item que contém hiperlink, você será redirecionado para a página de download.
 
 ###Instalação do Selenium WebDriver :computer:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na programação, foi utilizada a biblioteca Selenium WebDriver, pois com ela é possível identificar e manipular os elementos dentro da página. Segue abaixo informações referente à instalação do framework e sua documentação:
@@ -37,16 +37,16 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
 
 ##### Obs: Para esse comando funcionar, é necessário que o usuário já tenha instalado em sua máquina o Python 3.8.3
 
-###Executando os Testes :arrow_forward:
+### Executando os Testes :arrow_forward:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para executar os testes é muito simples, primeiro de tudo, baixe todos os arquivos e armazene-os na mesma pasta. Feito isso, siga os passos a seguir:
 
 1. Instale o Python 3.8.3, para poder executar o programa;
    <div align='center'>
-    <img src='DownloadPython.jpg' width=75% height= 75%>
+    <img src='DownloadPython.JPG' width=75% height= 75%>
    <div>
 2. Instale o Visual Studio Code 1.47.3 no seu computador, para a edição do código;
    <div align='center'>
-    <img src='DownloadVSCode.jpg' width=75% height= 75%>
+    <img src='DownloadVSCode.JPG' width=75% height= 75%>
    <div>
 3. Abra o arquivo "QA-WebJump.py" com "Visual Studio Code";
    <div align='center'>
@@ -93,7 +93,7 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
     <img src='Etapa6.jpg' width=75% height= 75%>
    <div>
 
-###Links :link:
+### Links :link:
 
 - Tutorial para instalação do Python: https://www.youtube.com/watch?v=UI2OKHxLWfg
 - Tutorial para instalação do Visual Studio Code: https://www.youtube.com/watch?v=49K-Zxc8A7A
