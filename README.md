@@ -33,7 +33,7 @@
 - [Selenium WebDriver](https://selenium-python.readthedocs.io/)</br>O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizado nesse caso foi seguindo os passos abaixo:
 1. Acesse o prompt de comando `'win'` + `'r'`
 3. Digite "cmd" e depois pressione `'enter'`
-2. Digite o seguinte comando: `py -m pip install selenium`
+2. Digite e execute o seguinte comando: `py -m pip install selenium`
 
 ##### Obs: Para esse comando funcionar, é necessário que o usuário já tenha instalado em sua máquina o Python 3.8.3
 
