@@ -70,7 +70,7 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
 ##### Obs: Não esqueça de colocar o chromedriver dentro da pasta onde estão os demais arquivos do programa.
 
 ### Executando os Testes :arrow_forward:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para executar os testes é muito simples, primeiro de tudo, baixe todos os arquivos e armazene-os na mesma pasta. Feito isso, extraia o arquivo "Lib" na pasta atual e siga os passos a seguir:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para executar os testes é muito simples, primeiro de tudo, baixe todos os arquivos e armazene-os na mesma pasta. Feito isso, extraia o arquivo "Lib.rar" na pasta atual e siga os passos a seguir:
 
 1. Instale o Python 3.8.3, para poder executar o programa;
    <div align='center'>
