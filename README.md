@@ -33,7 +33,7 @@
 
 ### Instalação do Selenium WebDriver :computer:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na programação, foi utilizada a biblioteca Selenium WebDriver, pois com ela é possível identificar e manipular os elementos dentro da página. Segue abaixo informações referente à instalação do framework e sua documentação:
-- [Selenium WebDriver](https://selenium-python.readthedocs.io/)
+- [Selenium WebDriver](https://selenium-python.readthedocs.io/)</br>
 O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizado nesse caso foi seguindo os passos abaixo:
 1. Acesse o prompt de comando `'win'` + `'r'`
 2. Digite "cmd" e pressione `'enter'`
@@ -50,9 +50,9 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
 4. Aguarde a instalação
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ao executar o programa, o resultado de testes será apresentado em forma de "caixa de alerta", da seguinte maneira:
-   <div align='center'>
-    <img src='/Readme-Images/Alerta_Teste.jpg' width=75% height= 75%>
-   <div>
+    <div align='center'>
+        <img src='/Readme-Images/Alerta_Teste.jpg' width=75% height= 75%>
+    </div>
 
 ### Download e Armazenamento ChromeDriver :file_folder:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para a instalação do ChromeDriver, é necessário saber qual é a versão do seu navegador. Para desconbrir essas informações, siga os passos a seguir:
@@ -74,15 +74,15 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
 1. Instale o Python 3.8.3, para poder executar o programa;
    <div align='center'>
     <img src='/Readme-Images/DownloadPython.JPG' width=75% height= 75%>
-   <div>
+   </div>
 2. Instale o Visual Studio Code 1.47.3 no seu computador, para a edição do código;
    <div align='center'>
     <img src='/Readme-Images/DownloadVSCode.JPG' width=75% height= 75%>
-   <div>
+   </div>
 3. Abra o arquivo "QA-WebJump.py" com "Visual Studio Code";
    <div align='center'>
     <img src='/Readme-Images/Etapa3.jpg' width=75% height= 75%>
-   <div>
+   </div>
 4. Vá até as últimas linhas do código e realize as tarefas conforme comentado.
    ###### Obs: Para a realização dos testes, deve-se descomentar a classe e seu respectivo "executa cenário"
 
@@ -122,7 +122,7 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
 
    <div align='center'>
     <img src='/Readme-Images/Etapa6.jpg' width=75% height= 75%>
-   <div>
+   </div>
 
 ### Links :link:
 
