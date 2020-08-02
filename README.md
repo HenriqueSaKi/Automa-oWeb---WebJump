@@ -11,6 +11,7 @@
 ### Índice :scroll: 
 - Ferramentas
 - Instalação do Selenium WebDriver
+- Instalação do Pyautogui
 - Download e Armazenamento ChromeDriver
 - Executando os Testes
 - Links
@@ -20,11 +21,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para o desenvolvimento desse software, foram utilizadas as ferramentas listadas a seguir:
 
 
-- Windows 10 Home Single Language
-- [Visual Studio Code 1.47.3](https://code.visualstudio.com/download)
-- [Python 3.8.3](https://www.python.org/downloads/)
+
 - [ChromeDriver 84.0.4147.30](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+- [Pyautogui](https://pyautogui.readthedocs.io/en/latest/)
+- [Python 3.8.3](https://www.python.org/downloads/)
 - [Selenium WebDriver](https://selenium-python.readthedocs.io/installation.html#)
+- [Visual Studio Code 1.47.3](https://code.visualstudio.com/download)
+- Windows 10 Home Single Language
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Obs: Clicando sob cada item que contém hiperlink, você será redirecionado para a página de download.
 
@@ -33,9 +36,23 @@
 - [Selenium WebDriver](https://selenium-python.readthedocs.io/)
 O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizado nesse caso foi seguindo os passos abaixo:
 1. Acesse o prompt de comando `'win'` + `'r'`
-2. Digite o seguinte comando: `py -m pip install selenium`
+2. Digite "cmd" e pressione `'enter'`
+3. Digite o seguinte comando: `py -m pip install selenium` e pressione `'enter'`
+4. Aguarde a instalação
 
 ##### Obs: Para esse comando funcionar, é necessário que o usuário já tenha instalado em sua máquina o Python 3.8.3
+
+### Instalação do Pyautogui :rocket:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para a apresentação do resultado de teste, dos ícones, foi utilizado a biblioteca Pyautogui. Seu modo de instalação é bem simples. Assim como no Selenium Webdriver, podemos executar essa ação pelo prompt de comando, dessa forma:
+1. Acesse o prompt de comando `'win'` + `'r'`
+2. Digite "cmd" e pressione `'enter'`
+3. Digite o seguinte comando: `py -m pip install pyautogui` e pressione `'enter'`
+4. Aguarde a instalação
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ao executar o programa, o resultado de testes será apresentado em forma de "caixa de alerta", da seguinte maneira:
+   <div align='center'>
+    <img src='/Readme-Images/Alerta_Teste.jpg' width=75% height= 75%>
+   <div>
 
 ### Download e Armazenamento ChromeDriver :file_folder:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para a instalação do ChromeDriver, é necessário saber qual é a versão do seu navegador. Para desconbrir essas informações, siga os passos a seguir:
