@@ -30,10 +30,10 @@
 
 ### Instalação do Selenium WebDriver :computer:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na programação, foi utilizada a biblioteca Selenium WebDriver, pois com ela é possível identificar e manipular os elementos dentro da página. Segue abaixo informações referente à instalação do framework e sua documentação:
-- [Selenium WebDriver](https://selenium-python.readthedocs.io/)</br>O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizado nesse caso foi seguindo os passos abaixo:
+- [Selenium WebDriver](https://selenium-python.readthedocs.io/)
+O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizado nesse caso foi seguindo os passos abaixo:
 1. Acesse o prompt de comando `'win'` + `'r'`
-3. Digite "cmd" e depois pressione `'enter'`
-2. Digite e execute o seguinte comando: `py -m pip install selenium`
+2. Digite o seguinte comando: `py -m pip install selenium`
 
 ##### Obs: Para esse comando funcionar, é necessário que o usuário já tenha instalado em sua máquina o Python 3.8.3
 
@@ -44,28 +44,27 @@
 3. Clique em 'Sobre o Google Chrome';
 4. Serão carregados as seguintes informações:
    <div align='center'>
-    <img src='AboutChrome.JPG' width=75% height= 75%>
+    <img src='/Readme-Images/AboutChrome.JPG' width=75% height= 75%>
    <div>
 5. Para realizar o download correto, acesse o link, clicando [aqui](https://sites.google.com/a/chromium.org/chromedriver/downloads).
 6. Escolha a versão do seu Chrome e clique na opção;
 7. Automaticamente o seu download irá começar.
-       
- ##### Obs: Não esqueça de colocar o chromedriver dentro da pasta onde estão os demais arquivos do programa.
+       ##### Obs: Não esqueça de colocar o chromedriver dentro da pasta onde estão os demais arquivos do programa.
 
 ### Executando os Testes :arrow_forward:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para executar os testes é muito simples, primeiro de tudo, baixe todos os arquivos e armazene-os na mesma pasta. Feito isso, siga os passos a seguir:
 
 1. Instale o Python 3.8.3, para poder executar o programa;
    <div align='center'>
-    <img src='DownloadPython.JPG' width=75% height= 75%>
+    <img src='/Readme-Images/DownloadPython.JPG' width=75% height= 75%>
    <div>
 2. Instale o Visual Studio Code 1.47.3 no seu computador, para a edição do código;
    <div align='center'>
-    <img src='DownloadVSCode.JPG' width=75% height= 75%>
+    <img src='/Readme-Images/DownloadVSCode.JPG' width=75% height= 75%>
    <div>
 3. Abra o arquivo "QA-WebJump.py" com "Visual Studio Code";
    <div align='center'>
-    <img src='Etapa3.jpg' width=75% height= 75%>
+    <img src='/Readme-Images/Etapa3.jpg' width=75% height= 75%>
    <div>
 4. Vá até as últimas linhas do código e realize as tarefas conforme comentado.
    ###### Obs: Para a realização dos testes, deve-se descomentar a classe e seu respectivo "executa cenário"
@@ -102,10 +101,10 @@
 
 
 5. Após determinar qual teste será realizado, salve o arquivo "QA-WebJump.py", utilizando o comando `'ctrl'`+`'s'`;
-6. Abra-o com o Python e veja o funcionamento do programa com o cenário escolhido! 
+6. Abra-o com o Python e veja o funcionamento do programa com o teste escolhido! 
 
    <div align='center'>
-    <img src='Etapa6.jpg' width=75% height= 75%>
+    <img src='/Readme-Images/Etapa6.jpg' width=75% height= 75%>
    <div>
 
 ### Links :link:
