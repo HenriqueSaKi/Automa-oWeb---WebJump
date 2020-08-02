@@ -65,8 +65,9 @@ O Selenium WebDriver pode ser instalado de diversas maneiras. O método utilizad
    <div>
 5. Para realizar o download correto, acesse o link, clicando [aqui](https://sites.google.com/a/chromium.org/chromedriver/downloads).
 6. Escolha a versão do seu Chrome e clique na opção;
-7. Automaticamente o seu download irá começar.</br>
-       ##### Obs: Não esqueça de colocar o chromedriver dentro da pasta onde estão os demais arquivos do programa.
+7. Automaticamente o seu download irá começar.
+    
+##### Obs: Não esqueça de colocar o chromedriver dentro da pasta onde estão os demais arquivos do programa.
 
 ### Executando os Testes :arrow_forward:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para executar os testes é muito simples, primeiro de tudo, baixe todos os arquivos e armazene-os na mesma pasta. Feito isso, siga os passos a seguir:
