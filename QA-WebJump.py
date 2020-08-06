@@ -5,12 +5,13 @@ from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 import pyautogui
 import time
 
 
 
-driver = webdriver.Chrome(executable_path='chromedriver')
+driver = webdriver.Chrome(ChromeDriverManager.install())
 driver.get("https://wejump-automation-test.github.io/qa-test/")
 driver.maximize_window()
 
